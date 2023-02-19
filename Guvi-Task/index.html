@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+						initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Guvi-task</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="heading">Guvi-Task</h1>
+        <h3 class="title"> Login & Registration Form</h3>
+    </header>
+
+    <!-- container div -->
+    <div class="container">
+
+        <!-- upper button section to select
+			the login or signup form -->
+        <div class="slider"></div>
+        <div class="btn">
+            <button class="login">Login</button>
+            <button class="signup">Signup</button>
+        </div>
+
+        <!-- Form section that contains the
+			login and the signup form -->
+        <div class="form-section">
+
+            <!-- login form -->
+            <form action="profile.html">
+                <div class="login-box">
+                    <input type="email" class="email ele" placeholder="youremail@email.com" required>
+                    <input type="password" class="password ele" placeholder="password" required>
+
+                    <button class="clkbtn">Login</button>
+
+                    <div class="social-login">
+                        <span class="social-label">Or login with</span>
+                        <ul class="socials">
+                            <p><a href="#"><i class="display-flex-center fa fa-facebook"></i> Facebook</a></p>
+                            <p><a href="#"><i class="display-flex-center fa fa-twitter"></i> Twitter</a></p>
+                            <p><a href="#"><i class="display-flex-center fa fa-google"></i> Google</a></p>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+
+            <!-- signup form -->
+            <form action="index.html">
+                <div class="signup-box">
+                    <input type="text" class="name ele" placeholder="Enter your name" required>
+                    <input type="email" class="email ele" placeholder="youremail@email.com">
+                    <input type="password" class="password ele" placeholder="password">
+                    <input type="password" class="password ele" placeholder="Confirm password">
+                    <button class="clkbtn1">Signup</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./js//index.js"></script>
+</body>
+
+</html>
